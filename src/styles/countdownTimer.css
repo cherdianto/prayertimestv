@@ -1,0 +1,30 @@
+/* CountdownTimer.css */
+.countdown-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.digit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.unit {
+  text-transform: uppercase;
+}
+
+.colon {
+  margin: 0 10px;
+}

@@ -13,10 +13,7 @@ const CurrentTime = () => {
   }, []);
 
   return (
-    <h3
-      className="d-flex align-items-center justify-content-center h-100 fw-bold text-danger"
-      style={{ fontSize: '70px' }}
-    >
+    <h3 className="text-end fw-bold text-danger" style={{ fontSize: '70px' }}>
       {currentTime}
     </h3>
   );

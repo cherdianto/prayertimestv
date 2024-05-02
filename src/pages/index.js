@@ -8,7 +8,7 @@ const Home = () => {
       <PrayerTimes
         cityName="Sleman"
         countryName="ID"
-        mosqueName="Darussalam"
+        mosqueName="Masjid Darussalam"
         mosqueLocation="Wedomartani, Sleman"
       />
     </div>

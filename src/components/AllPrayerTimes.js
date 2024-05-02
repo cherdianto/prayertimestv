@@ -15,7 +15,7 @@ const AllPrayerTimes = ({ prayerTimes, prayerKeys, nextPrayer }) => {
             }}
           >
             <h1 className="font-sedan">{key}</h1>
-            <h1>{prayerTimes[key] || '-'}</h1>
+            <h1 style={{ fontSize: '45px' }}>{prayerTimes[key] || '-'}</h1>
           </Col>
         ))}
       </Row>
